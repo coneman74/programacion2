@@ -6,7 +6,6 @@ def saluda():
   print(name)
   et2 = ttk.Label(v,text="Hola "+name)
   et2.grid(column=0, row=3)
-  et3.grid(column=1, row=3)
 
 v = Tk()
 v.geometry("400x200")
@@ -14,7 +13,6 @@ v.geometry("400x200")
 img = PhotoImage(file='saludo.png')
 et3 = ttk.Label(v,image=img, anchor="center")
 
-name = StringVar()
 et1 = ttk.Label(v, text="Cual es tu nombre: ")
 et1.grid(column=0, row=0)
 
